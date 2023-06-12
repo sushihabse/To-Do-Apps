@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.card{
+    background-color: #222;
+    color:white;
+    padding: 1rem;
+    min-height: 80vh;
+    width: 50%;
+    border-radius: .6rem;
+}
+
+.card-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:white
+}
+
+input{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+
+.btn{
+    border:none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 155, 6);
+    color:white;
+    transition:all 0.3s;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:black;
+}
+
+#addTodoButton{
+    width: 19%;
+}
+
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin:5px 0px 0px 0px;
+}
+
+.bg-success{
+    margin:5px 0px 0px 0px;
+    padding: 0.5rem;
+    color: black;
+    background: #ddffdd;
+    border-left: 6px solid #04aa;
+}
+.bg-danger{
+    margin:5px 0px 0px 0px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: rgb(247, 243, 243);
+    background: #d61e05;
+    border-left: 6px solid rgba(102, 206, 238, 0.667);
+}
